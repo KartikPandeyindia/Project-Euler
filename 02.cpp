@@ -1,7 +1,7 @@
 //Find the sum of even-valued Fib terms, terms should not exceed 4million
 
 #include <iostream>
-#define Approach 3 //Place values for switch approaches
+#define Approach 1 //Place values for switch approaches
 
 #if Approach == 1 //Standard
 int main()
