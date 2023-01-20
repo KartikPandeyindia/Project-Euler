@@ -56,5 +56,12 @@ int main()
     std::cout << func();
     return 0;
 }
-
+#elif switch == 2
+/*
+--Optimization--
+* Reverse of a palidrome is equal to the palindrome
+* n = xyzzyx = 10^5 x + 10^4 y + 10^3 z + 10^2 z + 10 y + x
+  => n = 11 ( 9091x + 910y + 100z )
+  n = a*b one of the factor is multiple of 11
+*/
 #endif
