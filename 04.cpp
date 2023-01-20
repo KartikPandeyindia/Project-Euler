@@ -12,31 +12,35 @@ int func()
     int i, j;
     int cnt = 0;
 
-    for ( int n = 999*999; n >= 100*100; n--)  //Going from largest to smallest possibilities
+    //Loop: Largest to Smallest
+    for ( int n = 999*999; n >= 100*100; n--)  
     {
-        for ( int k = 999; k > 100; k--)    //Checking for for product of two 3-digit numbers
+        //Test: Product of two 3-digit numbers
+        for ( int k = 999; k > 100; k--)    
         {
 
             if ( n % k == 0 )
             {
                 int x = n / k;
 
-                if ( x > 99 && x < 1000 )     //check passed
+                if ( x > 99 && x < 1000 )     
                 {
+                    //Pass
                     int ans = n; 
                     cnt = 0;   
-                    
-                    for ( j = -1; ans; )   //Checking for palindrome
+                    //Transfrom: Number to Int Array
+                    for ( j = -1; ans; )   
                     {
                         j++;
                         arr[ j ] = ans % 10;
                         ans /= 10;
                     }
-
+                    //Test: Palindrome
                     for ( i = 0; i <= (j / 2) && arr[ i ] == arr[ j - i ]; i++ )
                     {
                         cnt++;
-                        if ( cnt == (j / 2) + 1 ) //check passed
+                        if ( cnt == (j / 2) + 1 ) //This works when j is odd. for even j, remove +1
+                            //Pass
                             return n;
                     }
                 }
