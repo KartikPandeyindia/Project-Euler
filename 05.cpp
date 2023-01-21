@@ -53,7 +53,7 @@ data func()
 {
     data x = 1;
 
-    for( data i = 2; i <= 20; i++ )
+    for( data i = 10; i >= 2; i-- )
     {
         data hcf = ( x > i ) ? HCF( x, i ) : HCF( i, x );
         data lcm = (x * i) / hcf;           //LCM = Product / HCF
