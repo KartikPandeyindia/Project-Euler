@@ -2,7 +2,6 @@
 //Time: 24m     Ans: 232792560
 
 #include <iostream>
-#define data unsigned long long
 #define flag 2
 
 #if flag == 1     //Brute force
@@ -31,6 +30,7 @@ int main()
 }
 
 #elif flag == 2   //LCM method
+#define data unsigned long long
 
 //Returns: HCF of (a, b) only if [a > b]
 data HCF( data a, data b)
