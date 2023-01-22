@@ -44,7 +44,7 @@ int main()
 
 #elif gear == 2         //Faster method
 // There is no Absolute method to arrive at the prime at nth index
-// Hence,  Approximation method will be used.
+// Hence,  Either Approximation method or Optimizated method will be used.
 
 #endif
 //The best method to conjure primes is to store them in a database as per index.
