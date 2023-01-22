@@ -1,4 +1,5 @@
 //Find the difference of "sum of squares" and "square of sums" of first 100 natural numbers
+//Time: 20m   Answer: 25164150 
 
 #include <iostream>
 #define data unsigned long long
