@@ -61,5 +61,11 @@ int main()
 }
 
 #elif state == 2
-//Best optimized version already?
+//Best optimized version already? - No
+/*
+* Think about chunks greater thatn window_size
+  They have many in-between chunks in them
+  
+  These in-between chunks are processing repetitive digits.
+*/
 #endif
