@@ -1,2 +1,4 @@
 [Project Euler Link] (https://projecteuler.net/progress=pandeyji_seeti)
-Solving one Project Euler question each day.
+I found the questions to be decent and Math oriented.
+Some questions could even be solved without code.
+I'll solve them as a pass time.
